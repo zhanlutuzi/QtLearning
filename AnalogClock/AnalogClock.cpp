@@ -5,9 +5,12 @@ AnalogClock::AnalogClock(QWidget *parent)
 {
     //ui.setupUi(this);
     QTimer* timer = new QTimer(this);
-	connect(timer, &QTimer::timeout, this, QOverload<>::of(&AnalogClock::update));
+	//connect(timer, &QTimer::timeout, this, QOverload<>::of(&AnalogClock::update));
 	//像下面这样不能每隔1秒刷新一次？
 	//connect(timer, SIGNAL(&QTimer::timeout), this, SLOT(&AnalogClock::update));
+	//这样写会报错
+	//connect(timer, &QTimer::timeout, this, &AnalogClock::update);
+	
     timer->start(1000);
 
     setWindowTitle("Analog Clock");

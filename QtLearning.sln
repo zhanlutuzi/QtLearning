@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnalogClock", "AnalogClock\AnalogClock.vcxproj", "{85E7DE26-CCFA-4D03-A487-FCEDE55CAE12}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DragDrop", "DragDrop\DragDrop.vcxproj", "{7DE32BAE-931B-4A7E-95D3-4BFA58A6AB2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,6 +29,10 @@ Global
 		{85E7DE26-CCFA-4D03-A487-FCEDE55CAE12}.Debug|x64.Build.0 = Debug|x64
 		{85E7DE26-CCFA-4D03-A487-FCEDE55CAE12}.Release|x64.ActiveCfg = Release|x64
 		{85E7DE26-CCFA-4D03-A487-FCEDE55CAE12}.Release|x64.Build.0 = Release|x64
+		{7DE32BAE-931B-4A7E-95D3-4BFA58A6AB2D}.Debug|x64.ActiveCfg = Debug|x64
+		{7DE32BAE-931B-4A7E-95D3-4BFA58A6AB2D}.Debug|x64.Build.0 = Debug|x64
+		{7DE32BAE-931B-4A7E-95D3-4BFA58A6AB2D}.Release|x64.ActiveCfg = Release|x64
+		{7DE32BAE-931B-4A7E-95D3-4BFA58A6AB2D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
