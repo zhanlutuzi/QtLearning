@@ -21,7 +21,7 @@ void DragDrop::GetMIMEChanged()
     QStringList splitTwo = splitOne[1].split(".");
     QStringList splitThr = splitTwo[0].split("/");
     for (int i = 0; i < splitThr.size() - 1; ++i)
-        filePath.append(splitThr[i]);
+        filePath.append(splitThr[i]).append("/");
     filetype = splitTwo.last();
 	fileName = splitThr.last();
 
