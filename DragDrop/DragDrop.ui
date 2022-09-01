@@ -57,9 +57,9 @@
     <property name="geometry">
      <rect>
       <x>130</x>
-      <y>460</y>
-      <width>351</width>
-      <height>283</height>
+      <y>510</y>
+      <width>381</width>
+      <height>111</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -78,7 +78,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QTextEdit" name="FileTypeText"/>
+        <widget class="QTextEdit" name="FileTypeText">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -97,7 +101,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QTextEdit" name="FileNameText"/>
+        <widget class="QTextEdit" name="FileNameText">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -116,7 +124,11 @@
         </widget>
        </item>
        <item>
-        <widget class="QTextEdit" name="FilePathText"/>
+        <widget class="QTextEdit" name="FilePathText">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
