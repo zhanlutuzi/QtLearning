@@ -23,16 +23,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="FileTreeView.qrc">
+    <QtRcc Include="LoginAndRegister.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtUic Include="FileTreeView.ui">
+    <QtUic Include="LoginAndRegister.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="FileTreeView.h">
+    <QtMoc Include="LoginAndRegister.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="FileTreeView.cpp">
+    <ClCompile Include="LoginAndRegister.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
